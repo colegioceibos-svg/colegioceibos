@@ -1,0 +1,22 @@
+.schedule {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.schedule-item {
+  background: #f0f0f0;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.schedule-item h3 {
+  margin: 0 0 10px;
+}
+
+.schedule-item .time {
+  font-size: 0.9em;
+  color: #666;
+}
